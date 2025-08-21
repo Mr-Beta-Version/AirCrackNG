@@ -17,4 +17,8 @@ dpkg -i aircrack-ng_3_1.7_aarch64.deb
 aircrack-ng
 ```
 
+# pcap bruteforce
 
+```
+aircrack-ng -w pass.txt -b WI:FI:MAC -e "WIFI NAME" file.pcap
+```
